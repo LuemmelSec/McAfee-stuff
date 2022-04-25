@@ -1,6 +1,6 @@
 # McAfee-stuff  
 
-## McAfee Agent Real Agent Compliance  
+## McAfee Real Agent Compliance  
 
 The Real Agent Compliance script fetches the last check-in date for all agents from the ePO via API. 
 It then fetches all last logons from all systems from the Active Directory. The list is cleaned so that only those systems are compared, that really exist in the ePO. 
